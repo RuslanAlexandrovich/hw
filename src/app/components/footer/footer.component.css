@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 65px;
+    color: white;
+}
+
+.container_footer {
+    display: flex;
+    padding: 0 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text {
+    min-width: fit-content;
+}

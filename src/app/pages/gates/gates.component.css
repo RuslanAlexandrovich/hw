@@ -1,0 +1,44 @@
+.container_gates {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 40px;
+  width: 100%;
+}
+.gates {
+  width: 30%;
+  margin: 0 auto;
+}
+.about_gates {
+  margin: 10px 0;
+  padding: 0 50px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+li {
+  margin: 0 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.typewriter {
+  padding: 0 50px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  margin: 20px auto;
+  letter-spacing: 0.15em;
+}

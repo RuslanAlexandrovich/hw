@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 65px;
+  color: white;
+}
+.container_header {
+  display: flex;
+  padding: 0 100px;
+  width: 100%;
+  align-items: center;
+}
+.logo_text {
+  min-width: fit-content;
+}
+.btn-menu {
+  display: flex;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.btn_link {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+}
