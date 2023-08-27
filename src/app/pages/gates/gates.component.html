@@ -1,4 +1,7 @@
-<div class="container_gates">
+<button (click)="toggleCollapse()">{{ isCollapsed ? "Show" : "Close" }}</button>
+<!-- <button *ngIf="!isCollapsed" (click)="toggleCollapse()">Close</button> -->
+
+<div *ngIf="!isCollapsed" class="container_gates">
   <h2>Bill Gates</h2>
   <img
     class="gates"

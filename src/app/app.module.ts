@@ -11,9 +11,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GatesComponent } from './pages/gates/gates.component';
 import { JobsComponent } from './pages/jobs/jobs.component';
 import { RowlingComponent } from './pages/rowling/rowling.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const appRoutes: Routes = [
-  // {path: '', component: AppComponent},
+  {path: '', component: HomeComponent},
   {path: 'gates', component: GatesComponent},
   {path: 'jobs', component: JobsComponent},
   {path: 'rowling', component: RowlingComponent}
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     FooterComponent,
     GatesComponent,
     JobsComponent,
-    RowlingComponent
+    RowlingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
